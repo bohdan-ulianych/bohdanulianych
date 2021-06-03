@@ -1,12 +1,11 @@
 package org.example;
 
 public class Cat {
-
     private String name;
     private int appetite;
     private boolean satiety;
-    Cat(String name, int appetite) {
 
+    Cat(String name, int appetite) {
         this.name = name;
         this.appetite = appetite;
         this.satiety = false;
@@ -24,10 +23,6 @@ public class Cat {
     public boolean isSatiety() {
         return satiety;
     }
-
-
-
-
 
 
     void eat(Plate p) {
