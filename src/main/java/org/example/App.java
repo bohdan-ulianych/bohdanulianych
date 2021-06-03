@@ -6,7 +6,7 @@ public class App {
         cat[0] = new Cat("Тимоша", 200);
         cat[1] = new Cat("Бандит", 90);
         cat[2] = new Cat("Мурка", 500);
-        Plate plate = new Plate(700);
+        Plate plate = new Plate(558);
         System.out.println("Коты " + cat[0].getName() + ", " + cat[1].getName() + " и " + cat[2].getName() + "  голодны");
         System.out.println(cat[0].getName() + " намерен съесть " + cat[0].getAppetite() + " грамм корма");
         System.out.println(cat[1].getName() + " намерен съесть " + cat[1].getAppetite() + " грамм корма");
