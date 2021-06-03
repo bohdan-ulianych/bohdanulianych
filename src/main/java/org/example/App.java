@@ -57,8 +57,19 @@ public class App {
             System.out.println("Кот не поплыл!!!");
         }else{
             System.out.println("Кот не умеет плавать и не пожет проплыть " + distSwimCat + "м");
+            System.out.println(" ");
         }
-    
+    //////////////////////////Task3.1
+        Animal cat1 = new Cat(12,12);
+        Animal cat2 = new Cat(12,12);
+        Animal cat3 = new Cat(12,12);
+        Animal cat4 = new Cat(12,12);
+        Animal dog1 = new Dog(12, 12);
+        Animal dog2 = new Dog(12, 12);
+        Animal dog3 = new Dog(12, 12);
+        System.out.println("Создано котов: " + Cat.countCat);
+        System.out.println("Создано собак: " + Dog.countDog);
+
 
 
 
