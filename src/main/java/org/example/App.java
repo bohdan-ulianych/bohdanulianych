@@ -24,8 +24,8 @@ public class App {
                 {"5", "2", "3"}};
         try {
             try {
-                int result = checkArr(mass);
-                System.out.println(result);
+                int a = checkArr(mass);
+                System.out.println("Сумма компонентов массива: " + a);
             } catch (MyArraySizeException e) {
                 System.out.println("Размер массива не 4х4!");
             }
